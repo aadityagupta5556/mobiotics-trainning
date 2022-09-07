@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html learning </title>
+    <link rel="stylesheet" href="style.css">
+<!-- <style>
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        font-family: sans-serif;
+
+    }
+    th,td{
+         border: 5px solid #dddddd;
+         text-align: left;
+         padding: 8px;
+
+    }
+</style> -->
+
+
+</head>
+<body>
+    
+    <!-- <h1>the unorderd  <span class="text"> list </span>item are given below :</h1> -->
+
+  <!-- <ul>
+<li>apple </li>
+<li>mango</li>
+<li>orange</li>
+<li>pineapple</li>
+<li>litchi</li>
+  </ul>
+
+  <h1>the orderd list item are given as below :</h1>
+  <ol>
+    <li>apple </li>
+    <li>mango</li>
+    <li>orange</li>
+    <li>pineapple</li>
+    <li>litchi</li>
+
+
+  </ol> -->
+
+
+  <!-- ----------------------this portion is showing how i am going to use span tag---------------------------- -->
+
+  <!-- <h2 class="city">London</h2>
+  <p id="convert">London is the capital of England.</p>
+  
+  <h2 class="city">Paris</h2>
+  <p>Paris is the capital of France.</p>
+  
+  <h2 class="city">Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+
+  <button onclick="myhide()">hide the element</button>
+  <button onclick="textchange()">change</button>
+
+</body>
+
+<script>
+  function myhide(){
+    let x =document.getElementsByClassName("city")
+    for(let i=0; i<x.length; i++){
+      x[i].style.display="none"
+    }
+  }
+// --------------------------------------------------------------------------------------
+// uses of the id to manipulation using javascript
+
+function textchange(){
+  document.getElementById("convert").innerHTML="kathmandu i sthe cpital city of nepal"
+} -->
+<!-- 
+design one good form that content the name, age, number, email----------------- -->
+
+<!-- 
+<form>
+<label for="name">Name</label>
+<input type="text" name="name" placeholder="write your name"><br>
+
+<label for="email">Email</label>
+<input type="email" name="email" placeholder="write your email"><br>
+
+<label for="number">Number</label>
+<input type="number" name="number" placeholder="write your number"><br>
+
+<label for="number">Age</label>
+<input type="number" name="number" placeholder="write your age"><br>
+
+</form>
+
+</script> -->
+<!-- 
+<h1>this is the place to look at the current time zone</h1>
+<button type="button" onclick="document.getElementById('demo').innerHTML=Date()">click me to see date and time</button>
+<p id="demo"></p> -->
+
+
+<label for="name">Name</label>
+<input type="text" id="something" name="name" placeholder="write your name"><br>
+
+<button type="button" onclick="addvalue()">submmit</button> 
+
+
+<script>
+
+var arr=[];
+
+  function addvalue(){
+var a=document.getElementById('something').value
+
+
+    arr.push(a)
+    console.log(arr)
+  }
+  function delete(index){
+arr.splice(index, 1);
+console.log(arr)
+  }
+</script>
+
+
+</html>
